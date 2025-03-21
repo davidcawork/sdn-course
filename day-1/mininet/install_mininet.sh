@@ -30,7 +30,7 @@ git clone https://github.com/davidcawork/mininet.git
 cd mininet || { echo "Error al acceder al directorio de Mininet"; exit 1; }
 
 echo "Ejecutando el script de instalación de Mininet..."
-./util/install.sh -0fmnyv
+./util/install.sh -0fmnv
 
 # Verificar la instalación con un test básico
 echo "Verificando la instalación de Mininet..."
