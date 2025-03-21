@@ -24,7 +24,7 @@ fi
 
 # Clonar el repositorio de Mininet
 echo "Clonando el repositorio de Mininet..."
-git clone https://github.com/mininet/mininet.git
+git clone https://github.com/davidcawork/mininet.git
 
 # Navegar al directorio de Mininet y lanzar el script de instalación
 cd mininet || { echo "Error al acceder al directorio de Mininet"; exit 1; }
